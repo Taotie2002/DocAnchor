@@ -1,0 +1,25 @@
+[project]
+name = "docanchor"
+version = "0.1.0"
+description = "文锚结构化重建系统：将脏DOCX转为格式统一、结构严谨的干净DOCX"
+requires-python = ">=3.11"
+dependencies = [
+    "python-docx>=1.0.0",
+    "lxml>=5.0.0",
+    "PyMuPDF>=1.24.0",
+    "openai>=1.40.0",
+    "jsonschema>=4.20.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+docanchor = "docanchor.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

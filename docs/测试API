@@ -1,0 +1,17 @@
+1.真实 MinerU API 接入
+模型地址:
+https://mineru.net/api/v4/extract/task
+token:
+sk-xeS6Ya3ykMfkDEEANvzI5fpThKgL0lQnLWu2VA5CpwXYWNeZ
+模型:
+vlm
+文档:
+https://mineru.net/apiManage/docs
+
+2. LLM API 接入
+模型地址:
+https://integrate.api.nvidia.com/v1
+API_KEY: 
+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
+model="deepseek-ai/deepseek-v4-flash-0731"
+
